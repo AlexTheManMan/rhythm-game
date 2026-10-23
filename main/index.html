@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Rhyhm game UI</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main class="game">
+      <header class="game-header">
+         <h1> Rhythm Game</h1>
+      </header>
+
+      <section class="scoreboard" aria-label="Score">
+         <div>Score: 000000</div>
+         <div>Combo: 0</div>
+      </section>
+
+      <section class="playfield" aria-label="Four-lane playfield">
+         <div class="lane"><span>D</span><div class="target"></div></div>
+         <div class="lane"><span>F</span><div class="target"></div></div>
+         <div class="lane"><span>J</span><div class="target"></div></div>
+         <div class="lane"><span>K</span><div class="target"></div></div>
+      </section>
+   </main>
+   <script type="module" src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   padding: 24px;
+   background: #000000;
+   color: #fdfdfd;
+   font-family: verdana, sans-serif;
+   min-height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+
+.game {
+   margin: 0 auto;
+}
+
+.game-header {
+   text-align: center;
+}
+
+.scoreboard {
+   display: inline-table;
+   justify-content: space-between;
+   margin: 24px 0 16px;
+   padding: 16px;
+   background: #1232fd;
+}
+
+.playfield {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+   height: 600px;
+   width: 600px;
+   padding: 20px;
+   background: #1a2030;
+}
+
+.lane {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   padding-bottom: 16px;
+   background: #252d42;
+}
+
+.target {
+   position: absolute;
+   right: 8px;
+   left: 8px;
+   bottom: 48px;
+   height: 100px;
+   background: #a574e6;
+   border-radius: 50%;
+}
